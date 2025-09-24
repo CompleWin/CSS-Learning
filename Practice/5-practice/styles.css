@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    background-color: #ccc;
+}
+
+.task-bold {
+    font-weight: bold;
+}
+
+.task-size {
+    font-size: 20px;
+}
+
+.task-center {
+    text-align: center;
+}
+
+.task-monospace {
+    font-family: "JetBrains Mono", monospace;
+}
+
+.task-color {
+    color: #FF0000;
+}
+
+.task-complex {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #00FF00
+}
+
+.task-times-new-roman {
+    font-family: "Times New Roman", serif;
+}
+
+.task-large-blue {
+    font-size: 24px;
+    color: blue;
+}
