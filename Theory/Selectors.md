@@ -88,7 +88,7 @@ h1, h2, h3 {
 ### Дочерний селектор
 
 ```css
-article>p {
+article > p {
     /*
         Стили для всех элементов <p>,
         являющихся непосредственными
@@ -157,3 +157,23 @@ p::first-line {
 ```
 Есть и другие:
 `::before, ::after, ::first-letter, ::placeholder, ::selection`
+
+## Приоритет применения CSS
+
+```css
+#item-id {
+    background-clor: aqua;
+}
+
+[draggable="true"] {
+    background-clor: beige;
+}
+
+.item-class {
+    background-clor: red;
+}
+
+h1 {
+    background-clor: darkblue;
+}
+```

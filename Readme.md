@@ -4,6 +4,11 @@
 2. [Селекторы](/Theory/Selectors.md)
 3. [Цвета](/Theory/Colors.md)
 4. [Шрифты](/Theory/Fonts.md)
+5. [Строчные и блочные элементы](/Theory/LineAndBlock.md)
+6. [Div](/Theory/Div.md)
+7. [Позиционирование](/Theory/Position.md)
+8. [Transform Translate](/Theory/Transorm%20Translate.md)
+9. [Градиенты](./Theory/Gradients.md)
 
 # Полезные штучки
 
