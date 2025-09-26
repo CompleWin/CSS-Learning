@@ -9,6 +9,7 @@
 7. [Позиционирование](/Theory/Position.md)
 8. [Transform Translate](/Theory/Transorm%20Translate.md)
 9. [Градиенты](./Theory/Gradients.md)
+10. [Display](/Theory/Display.md)
 
 # Полезные штучки
 
