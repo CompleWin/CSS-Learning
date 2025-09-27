@@ -1,0 +1,48 @@
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px 100px 300px;
+      background-color: beige;
+      margin: 10px;
+      padding: 10px;
+      gap: 10px;
+      border: 2px solid black;
+    }
+
+    .grid-item {
+      background-color: #3498db;
+      color: #fff;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+    }
+
+    .grid-custom-item {
+      background-color: #078fe9;
+      height: 200px;
+    }
+
+    .grid-row-item {
+      grid-column: span 2;
+    }
+  </style>
+
+<div class="grid-container">
+    <div class="grid-item grid-row-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item grid-custom-item">6</div>
+    <div class="grid-item grid-custom-item">7</div>
+</div>
+
+[Вернуться назад](../Adaptive-Design.md)

@@ -27,16 +27,16 @@ p {
 
 ```css
 p {
-    background-color: linear-gradient(to right, #ff6600, #00ccff);
+    background: linear-gradient(to right, #ff6600, #00ccff);
 }
 ```
 ```css
 p {
-    background-color: radial-gradient(circle, #ff3399, #f00319);
+    background: radial-gradient(circle, #ff3399, #f00319);
 }
 ```
 ```css
 p {
-    background-color: linear-gradient(45deg, #ff6600, #00ccff);
+    background: linear-gradient(45deg, #ff6600, #00ccff);
 }
 ```
