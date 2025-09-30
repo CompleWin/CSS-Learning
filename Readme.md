@@ -12,6 +12,8 @@
 10. [Display](/Theory/Display.md)
 11. [Float](/Theory/Float.md)
 12. [Адаптивный Дизайн](/Theory/Adaptive-Design.md)
+13. [Flex-direction](/Theory/flex-dircetion.md)
+14. [Flex-basis](/Theory/Flex-basis.md)
 
 
 # Полезные штучки
