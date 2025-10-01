@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
+    <title>Подписка на закрытый канал</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .card {
+            text-align: center;
+            background-color: antiquewhite;
+            border-radius: 3rem;
+            padding: 2%;
+            margin: 2%;
+        }
+
+        .card h2 {
+            text-align: center;
+            margin: 5px;
+            width: 200px;
+        }
+
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5%;
+        }
+
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 2rem;
+            padding: 0.4rem;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #37873b;
+        }
+
+        .card-conteiner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-basis: 350px;
+            align-content: start;
+            flex: 1 1 0;
+        }
+
+        ul {
+
+            list-style: none;
+            display: inline-block;
+            padding: 0;
+            
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card-conteiner">
+        <div class="card">
+            <h2>Базовая подписка</h2>
+            <ul>
+                <li>✅ Бонус 1</li>
+                <li>❎ Бонус 2</li>
+                <li>❎ Бонус 3</li>
+            </ul>
+            <div class="price">&#8381; 199/месяц</div>
+            <a href="#" class="button">Подписаться</a>
+        </div>
+    
+        <div class="card">
+            <h2>Продвинутая подписка</h2>
+            <ul>
+                <li>✅ Бонус 1</li>
+                <li>✅ Бонус 2</li>
+                <li>❎ Бонус 3</li>
+            </ul>
+            <div class="price">&#8381; 299/месяц</div>
+            <a href="#" class="button">Подписаться</a>
+        </div>
+    
+        <div class="card">
+            <h2>Премиум подписка</h2>
+            <ul>
+                <li>✅ Бонус 1</li>
+                <li>✅ Бонус 2</li>
+                <li>✅ Бонус 3</li>
+            </ul>
+            <div class="price">&#8381; 599/месяц</div>
+            <a href="#" class="button">Подписаться</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
